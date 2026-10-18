@@ -1,0 +1,5 @@
+Модель,Train accuracy,Test accuracy,Test macro F1
+kNN k=5 без масштабирования,0.641,0.5,0.209
+kNN k=5 + StandardScaler,0.711,0.602,0.288
+"kNN подобранная ({'knn__n_neighbors': 23, 'knn__p': 1, 'knn__weights': 'distance'})",1.0,0.658,0.376
+Бинарная: quality ≥ 7,1.0,0.898,0.751
